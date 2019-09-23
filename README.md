@@ -8,7 +8,12 @@ Clone forked Laradock to same directory with this project
 git clone git@github.com:rindi-ismail/laradock.git
 ```
 
-Run the containers
+Build and run the development environment images
+```shell
+docker-compose up --build nginx postgres pgadmin redis workspace
+```
+
+Build and run the development environment images as daemon (you wont see the log)
 ```shell
 docker-compose up --build -d nginx postgres pgadmin redis workspace
 ```
@@ -35,3 +40,17 @@ docker-compose exec --user=laradock workspace bash
 ## Testing
 
 Browse to http://apotek.test
+
+
+## Pgadmin
+
+Browse to http://localhost:5050
+
+
+## Stop
+
+Stop all container
+
+```shell
+docker-compose stop
+```
