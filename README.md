@@ -2,10 +2,16 @@
 
 ## Run Environment With Laradock
 
-Clone forked Laradock to same directory with this project
+Clone apotek-hexa and Laradock
 
 ```shell
+git clone git@github.com:rindi-ismail/apotek-hexa.git
 git clone git@github.com:rindi-ismail/laradock.git
+```
+
+get into laradock directory
+```shell
+cd laradock
 ```
 
 Build and run the development environment images
