@@ -15,6 +15,13 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::get('/login', function () {
-    return view('auth/login');
+Route::get('/dashboard', function () {
+    return view('dashboard');
 });
+
+Route::match(['get', 'post'], '/login', 'Auth\LoginController@login');
+
+Route::get('/register', function () {
+    return view('auth/register');
+});
+Route::match(['post'], '/register', 'Auth\RegisterController@register');

@@ -16,7 +16,7 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <link href="./main.css" rel="stylesheet"></head>
-    <link href="./assets/css/auth.css" rel="stylesheet"></head>
+    <link href="./assets/css/main_pro.css" rel="stylesheet"></head>
 <body>
 <div class="app-container app-theme-white body-tabs-shadow">
         <div class="app-container">
@@ -27,7 +27,7 @@
                             <div class="slick-slider">
                                 <div>
                                     <div class="position-relative h-100 d-flex justify-content-center align-items-center bg-plum-plate" tabindex="-1">
-                                        <div class="slide-img-bg"></div>
+                                        <div class="slide-img-bg" style="background-image: url('assets/images/login_bg.jpg');"></div>
                                         <div class="slider-content"><h3>Perfect Balance</h3>
                                             <p>ArchitectUI is like a dream. Some think it's too good to be true! Extensive collection of unified React Boostrap Components and Elements.</p></div>
                                     </div>
