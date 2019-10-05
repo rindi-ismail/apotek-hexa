@@ -43,6 +43,11 @@ Get in the container (to execute laravel cli, etc)
 docker-compose exec --user=laradock workspace bash
 ```
 
+Install dependencies
+```shell
+compose install
+```
+
 ## Testing
 
 Browse to http://apotek.test
