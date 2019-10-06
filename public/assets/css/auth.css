@@ -20,3 +20,28 @@
   text-align: center;
   margin: 0 6rem;
 }
+
+.app-login-box .app-logo {
+  margin-bottom: 3rem;
+}
+
+.app-logo {
+  height: 23px;
+  width: 97px;
+  background: url(assets/images/logo-inverse.png);
+}
+
+.app-login-box h4 div {
+  opacity: .6;
+}
+
+.app-login-box h4 span {
+  font-size: 1.1rem;
+}
+
+.btn.btn-pill.btn-wide, .btn.btn-pill {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
