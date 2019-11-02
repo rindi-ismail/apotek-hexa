@@ -45,7 +45,13 @@ docker-compose exec --user=laradock workspace bash
 
 Install dependencies
 ```shell
-compose install
+cd apotek-hexa
+composer install
+```
+
+Migrate datase
+```shell
+php artisan migrate
 ```
 
 ## Testing
